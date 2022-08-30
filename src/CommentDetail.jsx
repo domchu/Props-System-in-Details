@@ -16,7 +16,8 @@ const CommentDetail = (props) => {
           <div className="metadata">
             <span className="date">{props.TimeUpdate}</span>
           </div>
-          <div className="text">Nice blog post</div>
+          <div className="text">{props.comment}</div>
+          <div className="text">{props.country}</div>
         </div>
       </div>
     </div>
