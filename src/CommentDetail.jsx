@@ -16,8 +16,8 @@ const CommentDetail = (props) => {
           <div className="metadata">
             <span className="date">{props.TimeUpdate}</span>
           </div>
-          <div className="text">{props.comment}</div>
-          <div className="text">{props.country}</div>
+          <div className="job">{props.comment}</div>
+          <div className="country">{props.country}</div>
         </div>
       </div>
     </div>
