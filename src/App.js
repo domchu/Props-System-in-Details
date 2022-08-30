@@ -1,4 +1,5 @@
 import "./App.css";
+import { faker } from "@faker-js/faker";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div className="comment">
         <a href="/" className="avatar">
           <img src="" alt="avatar" />
+          <img src={faker.image.avatar()} alt="avatar" />
         </a>
         <div className="content">
           <a href="/" className="author">
